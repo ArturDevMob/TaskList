@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_link">https://play.google.com/store</string>
+    <string name="app_name">@string/list_task</string>
+    <string name="description_app">Список задач - лёгкое приложение для ведения списка задач, которые нужно выполнить.</string>
+    <string name="list_task">Список задач</string>
+    <string name="card_tas">Карточка задачи</string>
+    <string name="adding_task">Добавление задачи</string>
+    <string name="settings_app">Настройки приложения</string>
+    <string name="settings">Настройки</string>
+    <string name="leave_review">Оставить отзыв</string>
+
+    <string name="active_task">Активные задачи</string>
+    <string name="archival_task">Архивные задачи</string>
+
+    <string name="task_list_settings">Настройки списка задач</string>
+    <string name="sort_task_list_by">Сортировать список задач</string>
+    <string name="sort_task_list_by_dialog_title">Выберите режим сортировки</string>
+    <string name="sort_task_list_by_desc">Список задач на главном экране будет отсортирован по вашему выбору</string>
+    <string name="sort_in_reverse_order">Сортировать в обратном порядке</string>
+    <string name="sort_in_reverse_order_desc">Список будет отсортирован в обратном порядке</string>
+    <string name="automatically_delete_completed_tasks">Автоматически удалять выполненные задачи</string>
+    <string name="task_will_archived">После выполнения, задача будет помещена в архив</string>
+    <string name="task_will_deleted">После выполнения, задача будет удалена</string>
+    <string name="action_to_task">Действия для задачи:</string>
+    <string name="choose_action">Выберите действие</string>
+    <string name="choose">Выбрать</string>
+
+    <string name="notification_settings">Настройки уведомлений</string>
+    <string name="notification_deadline">Уведомлять о дедлайне</string>
+    <string name="notification_deadline_desc">Позволяет задать время, за которое будет отправлено уведомление о дедлайне</string>
+    <string name="notification_deadline_dialog_title">Выберите время уведомления</string>
+
+    <string name="information_app">Информация о приложении</string>
+    <string name="version_app">Версия приложения:</string>
+    <string name="feedback">Оставить отзыв</string>
+    <string name="close">Закрыть</string>
+
+    <string name="title">Заголовок</string>
+    <string name="detail_description">Подробное описание</string>
+    <string name="priority">Приоритет</string>
+    <string name="deadline">Дедлайн</string>
+    <string name="set_date_deadline">Установить дату дедлайна</string>
+    <string name="enter_title">Введите короткий заголовок ...</string>
+    <string name="enter_description">Введите подробное описание ..</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отменить</string>
+    <string name="apply">Применить</string>
+    <string name="no_time_limit">Бессрочно</string>
+    <string name="selected_action">Выберите действие:</string>
+    <string name="done">Выполнена</string>
+    <string name="recover">Восстановить</string>
+    <string name="to_change">Изменить</string>
+    <string name="delete">Удалить</string>
+    <string name="task_is_not_added">Задача не добавлена!</string>
+    <string name="task_updated">Задача обновлена!</string>
+    <string name="task_deleted">Задача удалена!</string>
+    <string name="list_task_complete_deleted">Список архивных задач удалён</string>
+    <string name="list_task_empty">Список пуст, удалять нечего</string>
+    <string name="burning_deadline">Горящий дедлайн</string>
+    <string name="click_to_go_to_ask">Нажмите, чтобы перейти к задаче</string>
+    <string name="deadline_installed">Дедлайн установлен</string>
+    <string name="deadline_not_installed">Дедлайн не может быть раньше текущей даты!</string>
+    <string name="deadline_remove">Дедлайн удален</string>
+
+    <string name="task_list_is_empty">Ваш список задач пуст! Кликните чтобы добавить первую задачу.</string>
+    <string name="archive_task_list_is_empty">Список выполненых задач пуст.</string>
+    <string name="chanel_task_description">Уведомления о дедлайне задач</string>
+
+    <string name="low">Низкий</string>
+    <string name="medium">Средний</string>
+    <string name="high">Высокий</string>
+
+    <string-array name="priorities">
+        <item>Низкий</item>
+        <item>Средний</item>
+        <item>Высокий</item>
+    </string-array>
+
+    <!-- sorting_method и sorting_method_value СВЯЗАНЫ!-->
+    <string-array name="sorting_method">
+        <item>Дате добавления</item>
+        <item>Дедлайну</item>
+        <item>Приоритету</item>
+    </string-array>
+    <string-array name="sorting_method_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="action_task">
+        <item>Выполнена</item>
+        <item>Редактировать</item>
+        <item>Удалить</item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arturdevmob.tasklist">
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <receiver android:name="com.arturdevmob.tasklist.utils.NotificationUtils.NotificationReceiver">
+            <intent-filter>
+                <action android:name="com.example.teamtasks.utils.NotificationUtils.NotificationReceiver"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.arturdevmob.tasklist.utils.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.arturdevmob.tasklist.ui.activity.TaskListPagerActivity"
+            android:label="@string/list_task">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.arturdevmob.tasklist.ui.activity.TaskActivity"
+            android:label="@string/card_tas" />
+        <activity
+            android:name="com.arturdevmob.tasklist.ui.activity.TaskAddActivity"
+            android:label="@string/adding_task" />
+        <activity
+            android:name="com.arturdevmob.tasklist.ui.activity.SettingsActivity"
+            android:label="@string/settings_app"/>
+
+    </application>
+
+</manifest>

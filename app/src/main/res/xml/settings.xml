@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/task_list_settings">
+        <ListPreference
+            android:key="sort_task_list"
+            android:title="@string/sort_task_list_by"
+            android:dialogTitle="@string/sort_task_list_by_dialog_title"
+            android:summary="@string/sort_task_list_by_desc"
+            android:defaultValue="0"
+            android:entries="@array/sorting_method"
+            android:entryValues="@array/sorting_method_value" />
+
+        <SwitchPreference
+            android:key="reverse_task_list"
+            android:title="@string/sort_in_reverse_order"
+            android:summary="@string/sort_in_reverse_order_desc"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="automatic_delete_complete_task"
+            android:title="@string/automatically_delete_completed_tasks"
+            android:summaryOff="@string/task_will_archived"
+            android:summaryOn="@string/task_will_deleted"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

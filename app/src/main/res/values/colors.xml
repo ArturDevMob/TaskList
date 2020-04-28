@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/strawberry_red</color>
+    <color name="colorPrimaryDark">@color/fiery_red</color>
+    <color name="colorAccent">@color/strawberry_red</color>
+
+    <color name="strawberry_red">#d32f2f</color>
+    <color name="smoky_white">#eeeeee</color>
+    <color name="gainsborough">#E2E2E2</color>
+    <color name="white">#ffffff</color>
+    <color name="fiery_red">#b71c1c</color>
+
+    <color name="brilliant_green">#47A76A</color>
+    <color name="signal_orange">#FF9900</color>
+    <color name="deep_yellow_pink">#F64A46</color>
+    <color name="black">#000000</color>
+    <color name="signal_black">#282828</color>
+</resources>
